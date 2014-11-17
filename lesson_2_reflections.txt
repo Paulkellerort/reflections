@@ -1,0 +1,7 @@
+Reflection 2
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It is a temporary transition point between the two.
+
+The main benefit is that if I need to change multiple files in one logical change, I can add them all to staging separately, and commit them all at once!
