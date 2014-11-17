@@ -1,0 +1,6 @@
+Reflections 1
+
+
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates a hidden .git file in the directory.  You need to do this to begin to track commits and changes.  It contains metadata on all the changes in the entire repository AFTER you create it
