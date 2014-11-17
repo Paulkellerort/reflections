@@ -1,0 +1,7 @@
+1.  When would you want to use a remote repository rather than keeping all your work local?
+
+Using a remote repository is essential for collaborating on team projects, so that many different members
+can keep track of all the changes that are being made.  It could also be useful even if I am working on a solo project
+if I am using public computers, because I can just keep all my progress stored on the remote repository instead
+of saving locally.  The remote repository will also serve as an accessible historical record of my work to easily
+display to others.
