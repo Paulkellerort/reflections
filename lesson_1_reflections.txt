@@ -1,47 +1,4 @@
-IMPORTANT NOTES:
-
-Version Control: create, store, and access different versions of the content you are working on
-
-Commandline:
-pwd #print working directory
-mkdir #make directory
-cd .. #up directory
-cd - #back directory
-cp old new #copy old file to new name
-cp -r old directory new #recursively copy directory
-rm #delete
-rmdir #delete empty directory
-rm -r #recursively delete directory and all files
-ls #list files in directory
-ls -a #list hidden files
-sublime file.txt #make new sublime file
-diff -u oldfile new file
-
-git log
-
-git log --stat
-
-git clone
-
-diff -u oldfile new file
-
-git checkout
-
-git init #initializes a new .git repository to track metadata of commits in repository
-
-git status
-
-git add #adds files to staging area
-
-
-Git cloning copies all the commits in a repository from one computer to another
-
-Git commits: when you save a meaningful change in your code to track version control.  Add one commit per logical change.  Snapshot of changes in every file of your repository
-
-Respository: collection of connected files.  Git will commit across all files in the repository
-
-
-Reflection 1
+1.
 
 diff -u oldfile new file will display changes between files for easier detection of changes that might be affecting your program.
 
@@ -52,7 +9,7 @@ they are displayed as
 It is also a good idea to keep lines short in your program so 
 that diff allows you to efficiently compare changes to lines
 
-Reflection 2
+2.
 
 Having access to the entire history of a file will make you more efficient by tracking changes you made and being able to debug and restore previous versions of the program.
 
@@ -60,31 +17,31 @@ It will also let you see how you originally designed something versus how you im
 
 Move FORWARD and BACKWARD
 
-Reflection 3
+3.
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
 Automatic pros: in case of computer crashing, in case you forget
 Automatic cons: random, so unfinished code may be present
 
 
-Reflection 4
+4.
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
 In GIT, one change in a file can impact usability across a host of other files that are linked together.  Google Docs are usually not used for programming.
 
-Reflection 5
+5.
 How can you use the commands git log and git diff to view the history of files?
 
 git log lets you find a file with the appropriate message
 git log --stat can tell you how man lines were added and deleted
 git diff -u (previous commit)(commit with desired message)
 
-Reflection 6
+6.
 How might using version control make you more confident to make changes that could break something?
 
-Each time I commit, I can save that file and then I am sure to have a working copy at least somewhere. Then I can use git checkout to find exactly where the bug was introduced, and git dif to identify the exact line where the code was changed.
+Each time I commit, I can save that file and then I am sure to have a working copy at least somewhere. Then I can use git checkout to find exactly where the bug was introduced, and git diff to identify the exact line where the code was changed.
 
 Reflection 7
 Now that you have your workspace set up, what do you want to try using Git for?
 
-Use git to access and modify my team's memorylane project!
+Use git to access and modify my team's project!

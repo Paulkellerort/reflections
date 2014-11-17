@@ -1,7 +1,47 @@
-Reflection 2
+1.
+
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates a hidden .git file in the directory.  You need to do this to begin to track commits and changes.  It contains metadata on all the changes in the entire repository AFTER you create it
+
+2.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It is a temporary transition point between the two.
 
 The main benefit is that if I need to change multiple files in one logical change, I can add them all to staging separately, and commit them all at once!
+
+3.
+How can you use the staging area to make sure you have one commit per logical change?
+
+Move multiple files into the staging area per logical change.
+
+4.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Trying a new version of the program that does something else.  Like adding a completely new feature that won't affect the core functionality.
+Maybe if you are editing someone else's code.
+Production branch
+Development branch
+Experimental branch
+Unique feature branches
+
+Working Simultaneously on a project people working on different features
+
+5.
+How do the diagrams help you visualize the branch structure?
+
+It is a great visual map to make clear the initial commit, the origin of different branches, the branch tips, how to merge, and the path of each branch
+
+6.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches creates one branch with all the changes made combined into one.  Put another way, merging two branches gives each branch the same branch tip.
+
+7.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging allows you to skip the step of opening the code back up, adding to the staging area, and commiting.  Quicker, and reduces the possibility of making another unrelated change while resolving the conflict.
+
+The con is that it may miss a conflict, if the changes made were in two separate geographic area of the code!
